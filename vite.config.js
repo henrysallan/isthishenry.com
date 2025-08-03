@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/', // This assumes you'll use a custom domain
+  base: '/isthishenry.com/', // This matches your repository name
   build: {
     outDir: 'dist',
   },
